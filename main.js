@@ -30,13 +30,24 @@ const whileloop = () => {
     }
 }
 
-const participantes = () => {
-    let e = 4;
+// const participantes = () => {
+//     let e = 4;
 
-    while(e < 8) {
-        console.log(e)
-        e++
+//     while(e < 8) {
+//         console.log(e)
+//         e++
+//     }
+// }
+
+// participantes();
+
+const participantes = () => {
+    let c = 5;
+
+    while(c > 1) {
+        console.log(c)
+        c++
     }
 }
 
-participantes();
+participantes()
